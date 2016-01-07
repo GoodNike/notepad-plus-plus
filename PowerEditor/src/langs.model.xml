@@ -114,7 +114,7 @@
         <Language name="javascript" ext="" commentLine="//" commentStart="/*" commentEnd="*/">
             <Keywords name="instre1">abstract boolean break byte case catch char class const continue debugger default delete do double else enum export extends final finally float for from function goto if implements import in instanceof int interface let long native new of package private protected public return short static super switch synchronized this throw throws transient try typeof var void volatile while with true false prototype</Keywords>
         </Language>
-        <Language name="javascript.js" ext="js jsm" commentLine="//" commentStart="/*" commentEnd="*/">
+        <Language name="javascript.js" ext="js jsm jsx ts tsx" commentLine="//" commentStart="/*" commentEnd="*/">
             <Keywords name="instre1">abstract boolean break byte case catch char class const continue debugger default delete do double else enum export extends final finally float for from function goto if implements import in instanceof int interface let long native new of package private protected public return short static super switch synchronized this throw throws transient try typeof var void volatile while with true false prototype</Keywords>
 			<Keywords name="type1">Array Date eval hasOwnProperty Infinity isFinite isNaN isPrototypeOf Math NaN Number Object prototype String toString undefined valueOf</Keywords>
 			<Keywords name="instre2">alert all anchor anchors area assign blur button checkbox clearInterval clearTimeout clientInformation close closed confirm constructor crypto decodeURI decodeURIComponent defaultStatus document element elements embed embeds encodeURI encodeURIComponent escape event fileUpload focus form forms frame innerHeight innerWidth layer layers link location mimeTypes navigate navigator frames frameRate hidden history image images offscreenBuffering open opener option outerHeight outerWidth packages pageXOffset pageYOffset parent parseFloat parseInt password pkcs11 plugin prompt propertyIsEnum radio reset screenX screenY scroll secure select self setInterval setTimeout status submit taint text textarea top unescape untaint window</Keywords>
@@ -156,7 +156,7 @@
             <Keywords name="type1">void struct union enum char short int long double float signed unsigned const static extern auto register volatile id Class SEL IMP BOOL</Keywords>
             <Keywords name="type2">oneway in out inout bycopy byref</Keywords>
         </Language>
-        <Language name="pascal" ext="pas inc" commentStart="{" commentEnd="}">
+        <Language name="pascal" ext="pas pp p inc lpr" commentStart="{" commentEnd="}">
             <Keywords name="instre1">and array asm begin case cdecl class const constructor default destructor div do downto else end end. except exit exports external far file finalization finally for function goto if implementation in index inherited initialization inline interface label library message mod near nil not object of on or out overload override packed pascal private procedure program property protected public published raise read record register repeat resourcestring safecall set shl shr stdcall stored string then threadvar to try type unit until uses var virtual while with write xor</Keywords>
         </Language>
         <Language name="perl" ext="pl pm plx" commentLine="#">
